@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CanvasPlay - Random Prompt & Visual Idea Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎨 CanvasPlay</h1>
+        <p class="tagline">Random Prompt & Visual Idea Engine</p>
+
+        <!-- Category Dropdown -->
+        <select id="category">
+            <option value="ui">UI Design</option>
+            <option value="illustration">Illustration</option>
+            <option value="branding">Branding</option>
+        </select>
+
+        <!-- Prompt Box -->
+        <div class="prompt-box">
+            <p id="promptText">Click Generate to get a creative idea!</p>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button id="generateBtn">Generate Prompt</button>
+            <button id="copyBtn">Copy</button>
+        </div>
+
+        <!-- Color Palette -->
+        <div class="palette">
+            <h3>Color Palette</h3>
+            <div id="colors"></div>
+        </div>
+
+        <!-- History Section -->
+        <div class="history">
+            <h3>Recent Prompts</h3>
+            <div id="history"></div>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
